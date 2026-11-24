@@ -1,0 +1,2046 @@
+{
+  "trip": {
+    "chain_order": [
+      "SC",
+      "GA",
+      "AL",
+      "MS",
+      "LA",
+      "TX",
+      "NM"
+    ]
+  },
+  "permits": [
+    {
+      "permit": {
+        "state": "SC",
+        "number": "261107P00051",
+        "valid_from": "11/09/2026",
+        "valid_to": "11/15/2026",
+        "usdot": "3435067",
+        "dimensions_raw": {
+          "width": "13'",
+          "height": "15'",
+          "length": "93'",
+          "gross_weight_lbs": 120000
+        }
+      },
+      "route": {
+        "origin_raw": "FRINK ST,CAYCE,SC [33.958343,-81.073579]",
+        "destination_raw": "I-20 W @ GA State Line [33.531850,-82.011818]",
+        "origin_latlon": [
+          33.958343,
+          -81.073579
+        ],
+        "destination_latlon": [
+          33.53185,
+          -82.011818
+        ],
+        "step_count": 17,
+        "steps": [
+          {
+            "seq": 1,
+            "road": "SC-2",
+            "direction": null,
+            "action": "other",
+            "exit": null,
+            "miles": 0.9,
+            "cumulative_miles": 0.9,
+            "instruction": "Start on SC-2 (FRINK ST)",
+            "route_label_raw": "Start on SC-2 (FRINK ST)",
+            "flags": []
+          },
+          {
+            "seq": 2,
+            "road": "SC-35",
+            "direction": null,
+            "action": "turn",
+            "exit": null,
+            "miles": 0.4,
+            "cumulative_miles": 1.3,
+            "instruction": "Turn LEFT onto SC-35 (12TH ST EXT)",
+            "route_label_raw": "Turn LEFT onto SC-35 (12TH ST EXT)",
+            "flags": []
+          },
+          {
+            "seq": 3,
+            "road": "SC-35",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": 0.9,
+            "cumulative_miles": 2.2,
+            "instruction": "Continue onto SC-35 (12TH ST)",
+            "route_label_raw": "Continue onto SC-35 (12TH ST)",
+            "flags": []
+          },
+          {
+            "seq": 4,
+            "road": "S-32-280",
+            "direction": null,
+            "action": "turn",
+            "exit": null,
+            "miles": 0.1,
+            "cumulative_miles": 2.3,
+            "instruction": "Turn LEFT onto D AVE (State Rd S-32-280) (D AVE)",
+            "route_label_raw": "Turn LEFT onto D AVE (State Rd S-32-280) (D AVE)",
+            "flags": [
+              "non_state_or_local_road"
+            ]
+          },
+          {
+            "seq": 5,
+            "road": "SC-602",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": 0.2,
+            "cumulative_miles": 2.5,
+            "instruction": "Continue onto SC-602 (PLATT SPRINGS RD)",
+            "route_label_raw": "Continue onto SC-602 (PLATT SPRINGS RD)",
+            "flags": []
+          },
+          {
+            "seq": 6,
+            "road": "SC-602",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": 1.0,
+            "cumulative_miles": 3.5,
+            "instruction": "Continue onto SC-602 (PLATT SPRINGS RD)",
+            "route_label_raw": "Continue onto SC-602 (PLATT SPRINGS RD)",
+            "flags": []
+          },
+          {
+            "seq": 7,
+            "road": "L-166",
+            "direction": null,
+            "action": "turn",
+            "exit": null,
+            "miles": 0.1,
+            "cumulative_miles": 3.6,
+            "instruction": "Turn LEFT onto L-166 (GLENN ST)(Route not Permitable - Contact Local Government)",
+            "route_label_raw": "Turn LEFT onto L-166 (GLENN ST)(Route not Permitable - Contact Local Government)",
+            "flags": [
+              "non_state_or_local_road",
+              "route_not_permitted_contact_local_government"
+            ]
+          },
+          {
+            "seq": 8,
+            "road": "S-32-166",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": 0.1,
+            "cumulative_miles": 3.7,
+            "instruction": "Continue onto GLENN ST (State Rd S-32-166) (GLENN ST)",
+            "route_label_raw": "Continue onto GLENN ST (State Rd S-32-166) (GLENN ST)",
+            "flags": [
+              "non_state_or_local_road"
+            ]
+          },
+          {
+            "seq": 9,
+            "road": "S-32-166",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": 0.3,
+            "cumulative_miles": 4.0,
+            "instruction": "Continue onto GLENN ST (State Rd S-32-166) (GLENN ST)",
+            "route_label_raw": "Continue onto GLENN ST (State Rd S-32-166) (GLENN ST)",
+            "flags": [
+              "non_state_or_local_road"
+            ]
+          },
+          {
+            "seq": 10,
+            "road": "SC-302",
+            "direction": null,
+            "action": "turn",
+            "exit": null,
+            "miles": 0.4,
+            "cumulative_miles": 4.4,
+            "instruction": "Turn RIGHT onto SC-302 (AIRPORT BLVD)",
+            "route_label_raw": "Turn RIGHT onto SC-302 (AIRPORT BLVD)",
+            "flags": []
+          },
+          {
+            "seq": 11,
+            "road": "SC-302",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": 0.6,
+            "cumulative_miles": 5.0,
+            "instruction": "Continue onto SC-302 (AIRPORT BLVD)",
+            "route_label_raw": "Continue onto SC-302 (AIRPORT BLVD)",
+            "flags": []
+          },
+          {
+            "seq": 12,
+            "road": "I-26",
+            "direction": null,
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.3,
+            "cumulative_miles": 5.3,
+            "instruction": "Take ramp/Exit onto R-7790 (Ramp to I-26 W) I-26 (INTERSTATE 26) W W",
+            "route_label_raw": "Take ramp/Exit onto R-7790 (Ramp to I-26 W) I-26 (INTERSTATE 26) W W",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 13,
+            "road": "I-26",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": 2.7,
+            "cumulative_miles": 8.0,
+            "instruction": "Continue onto I-26 (INTERSTATE 26) W W",
+            "route_label_raw": "Continue onto I-26 (INTERSTATE 26) W W",
+            "flags": []
+          },
+          {
+            "seq": 14,
+            "road": "US-378",
+            "direction": null,
+            "action": "ramp_exit",
+            "exit": "110",
+            "miles": 0.4,
+            "cumulative_miles": 8.4,
+            "instruction": "Take ramp/Exit onto R-7777 (Exit 110) US-378 (SUNSET BLVD)",
+            "route_label_raw": "Take ramp/Exit onto R-7777 (Exit 110) US-378 (SUNSET BLVD)",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 15,
+            "road": "US-378",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": 2.3,
+            "cumulative_miles": 10.7,
+            "instruction": "Continue onto US-378 (SUNSET BLVD)",
+            "route_label_raw": "Continue onto US-378 (SUNSET BLVD)",
+            "flags": []
+          },
+          {
+            "seq": 16,
+            "road": "I-20",
+            "direction": null,
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.4,
+            "cumulative_miles": 11.1,
+            "instruction": "Take ramp/Exit onto R-8054 (Ramp to I-20 W) I-20 (INTERSTATE 20) W W",
+            "route_label_raw": "Take ramp/Exit onto R-8054 (Ramp to I-20 W) I-20 (INTERSTATE 20) W W",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 17,
+            "road": "I-20",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": 61.2,
+            "cumulative_miles": 72.3,
+            "instruction": "Continue onto I-20 (INTERSTATE 20) W W",
+            "route_label_raw": "Continue onto I-20 (INTERSTATE 20) W W",
+            "flags": []
+          }
+        ],
+        "roads_in_order": [
+          "SC-2",
+          "SC-35",
+          "SC-35",
+          "S-32-280",
+          "SC-602",
+          "SC-602",
+          "L-166",
+          "S-32-166",
+          "S-32-166",
+          "SC-302",
+          "SC-302",
+          "I-26",
+          "US-378",
+          "I-20"
+        ]
+      },
+      "restrictions": [
+        {
+          "text": "When transporting multiple oversize pieces, gross weight must be legal.",
+          "tags": [
+            "other"
+          ]
+        },
+        {
+          "text": "Travel permitted Monday through Sunday from official sunrise to official sunset EXCEPT travel is PROHIBITED in close proximity of large urban areas between 7:00 am and 9:00 am on all weekdays and between 3:00pm and 6:00pm on school weekdays and between 4:30pm and 6:00pm on non-school weekdays.",
+          "tags": [
+            "daylight_only",
+            "time_window",
+            "day_restriction"
+          ]
+        },
+        {
+          "text": "Movement is prohibited on the day of the following holidays: New Year's Day, Memorial Day, Independence Day, Labor Day, Thanksgiving Day and Christmas Day",
+          "tags": [
+            "day_restriction"
+          ]
+        },
+        {
+          "text": "Movement is prohibited on Saturday and Sunday from Memorial Day through Labor Day on all SC, US and secondary routes East of I-95, to include US-521 from Manning to Georgetown and from Georgetown to the North Carolina State line and all routes in the Myrtle Beach vicinity.",
+          "tags": [
+            "day_restriction"
+          ]
+        },
+        {
+          "text": "One front civilian escort is required when traveling on two-lane highways.",
+          "tags": [
+            "escort"
+          ]
+        },
+        {
+          "text": "A flashing or strobe amber light must be displayed on the rear of the load visible for 500 feet at 360 degrees.",
+          "tags": [
+            "other"
+          ]
+        },
+        {
+          "text": "Signs or banners shall be displayed on both the front of the transporting vehicle and on the rear of the transporting vehicle or on the rear of the load. The sign shall be displayed as to be clearly visible and legible by oncoming traffic at all times. The sign or banner shall be at least 12 inches high x 7 feet wide. The sign or banner must read OVERSIZE LOAD or WIDE LOAD with black letters 10 inches high x 1.5\" wide on yellow background. The sign/banner shall not conceal the license plate or lights.",
+          "tags": [
+            "other"
+          ]
+        },
+        {
+          "text": "Fluorescent red or fluorescent orange colored flags, not less than 18 inches square, shall be displayed at each outer four corners of the load. Turn signals and brake lights must be displayed in working order. SOUTH CAROLINA DEPARTMENT OF TRANSPORTATION ID 260000918865 PERMIT 261107P00051 Page 1 of 3 SINGLE TRIP PERMIT #: 261107P00051 Valid From: 11/09/2026 To: 11/15/2026",
+          "tags": [
+            "other"
+          ]
+        }
+      ],
+      "extraction": {
+        "layout": "instruction_miles_list",
+        "checks": {
+          "sum_of_miles": 72.3,
+          "declared_total": null,
+          "ok": null
+        },
+        "has_distances": true,
+        "has_coordinates": true
+      }
+    },
+    {
+      "permit": {
+        "state": "GA",
+        "number": "A3144061",
+        "valid_from": "11/09/2026",
+        "valid_to": "11/18/2026",
+        "usdot": "3435067",
+        "dimensions_raw": {
+          "width": "13'0\"",
+          "height": "15' 4\"",
+          "length": "93'0\"",
+          "gross_weight_lbs": 99500
+        }
+      },
+      "route": {
+        "origin_raw": "I-20;SC;Augusta",
+        "destination_raw": "I-20;AL;Waco",
+        "origin_latlon": null,
+        "destination_latlon": null,
+        "step_count": 26,
+        "steps": [
+          {
+            "seq": 1,
+            "road": "I-20",
+            "direction": "SW",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 4.2,
+            "cumulative_miles": 4.2,
+            "instruction": "Take Ramp toward I-20 W/ATLANTA",
+            "route_label_raw": "I-20 SW",
+            "flags": []
+          },
+          {
+            "seq": 2,
+            "road": "I-20",
+            "direction": "SW",
+            "action": "ramp_exit",
+            "exit": "154",
+            "miles": 42.8,
+            "cumulative_miles": 47.0,
+            "instruction": "Take Exit 154 toward US-278",
+            "route_label_raw": "I-20 SW",
+            "flags": []
+          },
+          {
+            "seq": 3,
+            "road": null,
+            "direction": "N",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.2,
+            "cumulative_miles": 47.2,
+            "instruction": "Continue Straight on US-278 Ramp [GA-12]",
+            "route_label_raw": "Exit 154 N",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 4,
+            "road": "US-278",
+            "direction": "NE",
+            "action": "turn",
+            "exit": null,
+            "miles": 0.0,
+            "cumulative_miles": 47.2,
+            "instruction": "Turn left onto US-278 [GA-12] [ATLANTA HWY]",
+            "route_label_raw": "US-278 Ramp NE",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 5,
+            "road": "US-278",
+            "direction": "NW",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.0,
+            "cumulative_miles": 47.2,
+            "instruction": "Take Ramp toward WASHINGTON",
+            "route_label_raw": "US-278 NW",
+            "flags": []
+          },
+          {
+            "seq": 6,
+            "road": "US-278",
+            "direction": "NW",
+            "action": "turn",
+            "exit": null,
+            "miles": 8.0,
+            "cumulative_miles": 55.2,
+            "instruction": "Turn left onto GA-22 [SPARTA RD]",
+            "route_label_raw": "US-278 NW",
+            "flags": []
+          },
+          {
+            "seq": 7,
+            "road": "GA-22",
+            "direction": "S",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 1.8,
+            "cumulative_miles": 57.0,
+            "instruction": "Turn right onto I-20 Ramp [GA-402]",
+            "route_label_raw": "GA-22 S",
+            "flags": []
+          },
+          {
+            "seq": 8,
+            "road": "I-20",
+            "direction": "W",
+            "action": "turn",
+            "exit": null,
+            "miles": 0.4,
+            "cumulative_miles": 57.4,
+            "instruction": "Bear to the W onto I-20 [GA-402]",
+            "route_label_raw": "I-20 Ramp W",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 9,
+            "road": "I-20",
+            "direction": "W",
+            "action": "ramp_exit",
+            "exit": "82",
+            "miles": 64.9,
+            "cumulative_miles": 122.3,
+            "instruction": "Bypass via ramp at Exit 82 toward GA-20/GA-138/CONYERS; Take Next Entrance after GA-138/GA-20",
+            "route_label_raw": "I-20 W",
+            "flags": []
+          },
+          {
+            "seq": 10,
+            "road": "I-20",
+            "direction": "NW",
+            "action": "ramp_exit",
+            "exit": "67B",
+            "miles": 14.4,
+            "cumulative_miles": 136.7,
+            "instruction": "Take Exit 67B toward I-285 N/GREENVILLE/CHATTANOOGA",
+            "route_label_raw": "I-20 NW",
+            "flags": []
+          },
+          {
+            "seq": 11,
+            "road": null,
+            "direction": "W",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.1,
+            "cumulative_miles": 136.8,
+            "instruction": "Continue Straight on I-285 Ramp [GA-407]",
+            "route_label_raw": "Exit 67B W",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 12,
+            "road": "I-285",
+            "direction": "NW",
+            "action": "turn",
+            "exit": null,
+            "miles": 0.3,
+            "cumulative_miles": 137.1,
+            "instruction": "Bear to the N onto I-285 [GA-407]",
+            "route_label_raw": "I-285 Ramp NW",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 13,
+            "road": "I-285",
+            "direction": "N",
+            "action": "ramp_exit",
+            "exit": "44",
+            "miles": 1.2,
+            "cumulative_miles": 138.3,
+            "instruction": "Take Exit 44 toward GLENWOOD ROAD",
+            "route_label_raw": "I-285 N",
+            "flags": []
+          },
+          {
+            "seq": 14,
+            "road": null,
+            "direction": "N",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.1,
+            "cumulative_miles": 138.4,
+            "instruction": "Continue Straight on I-285 Ramp [GA-407]",
+            "route_label_raw": "Exit 44 N",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 15,
+            "road": "I-285",
+            "direction": "N",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.1,
+            "cumulative_miles": 138.5,
+            "instruction": "Take Ramp",
+            "route_label_raw": "I-285 Ramp N",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 16,
+            "road": "GA-260",
+            "direction": "W",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.1,
+            "cumulative_miles": 138.6,
+            "instruction": "Bear to the left onto I-285 Ramp [GA-407]",
+            "route_label_raw": "GA-260 W",
+            "flags": []
+          },
+          {
+            "seq": 17,
+            "road": "I-285",
+            "direction": "S",
+            "action": "turn",
+            "exit": null,
+            "miles": 0.3,
+            "cumulative_miles": 138.9,
+            "instruction": "Bear to the S onto I-285 [GA-407]",
+            "route_label_raw": "I-285 Ramp S",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 18,
+            "road": "I-285",
+            "direction": "S",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.8,
+            "cumulative_miles": 139.7,
+            "instruction": "Take Ramp toward I-285 S/MACON/MONTGOMERY",
+            "route_label_raw": "I-285 S",
+            "flags": []
+          },
+          {
+            "seq": 19,
+            "road": "I-285",
+            "direction": "SW",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 5.9,
+            "cumulative_miles": 145.6,
+            "instruction": "Take Ramp toward I-285 W/MONTGOMERY",
+            "route_label_raw": "I-285 SW",
+            "flags": []
+          },
+          {
+            "seq": 20,
+            "road": "I-285",
+            "direction": "SW",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 4.5,
+            "cumulative_miles": 150.1,
+            "instruction": "Take Ramp toward I-285 W/COLUMBUS/MONTGOMERY",
+            "route_label_raw": "I-285 SW",
+            "flags": []
+          },
+          {
+            "seq": 21,
+            "road": "I-285",
+            "direction": "SW",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 4.7,
+            "cumulative_miles": 154.8,
+            "instruction": "Take Ramp toward I-285 W/BIRMINGHAM/CHATTANOOGA",
+            "route_label_raw": "I-285 SW",
+            "flags": []
+          },
+          {
+            "seq": 22,
+            "road": "I-285",
+            "direction": "NW",
+            "action": "ramp_exit",
+            "exit": "10B",
+            "miles": 12.2,
+            "cumulative_miles": 167.0,
+            "instruction": "Take Exit 10B toward I-20 W/TOM MURPHY FWY/BIRMINGHAM",
+            "route_label_raw": "I-285 NW",
+            "flags": []
+          },
+          {
+            "seq": 23,
+            "road": null,
+            "direction": "N",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.2,
+            "cumulative_miles": 167.2,
+            "instruction": "Continue Straight on I-20 Ramp [GA-402]",
+            "route_label_raw": "Exit 10B N",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 24,
+            "road": "I-20",
+            "direction": "W",
+            "action": "turn",
+            "exit": null,
+            "miles": 0.6,
+            "cumulative_miles": 167.8,
+            "instruction": "Bear to the W onto I-20 [GA-402]",
+            "route_label_raw": "I-20 Ramp W",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 25,
+            "road": "I-20",
+            "direction": "W",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 1.1,
+            "cumulative_miles": 168.9,
+            "instruction": "Take Ramp toward I-20 W/BIRMINGHAM",
+            "route_label_raw": "I-20 W",
+            "flags": []
+          },
+          {
+            "seq": 26,
+            "road": "I-20",
+            "direction": "W",
+            "action": "arrive",
+            "exit": null,
+            "miles": 48.7,
+            "cumulative_miles": 217.6,
+            "instruction": "Arrive at destination. [Destination]",
+            "route_label_raw": "I-20 W",
+            "flags": []
+          }
+        ],
+        "roads_in_order": [
+          "I-20",
+          "I-20",
+          "US-278",
+          "US-278",
+          "GA-22",
+          "I-20",
+          "I-20",
+          "I-285",
+          "GA-260",
+          "I-285",
+          "I-285",
+          "I-285",
+          "I-285",
+          "I-285",
+          "I-20",
+          "I-20"
+        ]
+      },
+      "restrictions": [
+        {
+          "text": "IF YOU ARE TRAVELING THIS ROUTE BETWEEN FRIDAY EVENING AND MONDAY MORNING AND YOUR HEIGHT IS GREATER THAN 15 ft 6 in OR WIDTH IS GREATER THAN 20 ft, YOU MUST RESUBMIT AND ROUTE AROUND THE LANE CLOSURES ON I-285.**IF YOUR HEIGHT IS LESS THAN OR EQUAL TO 15 ft 6 in AND YOUR WIDTH IS LESS THAN OR EQUAL TO 20 ft, YOU ARE PERMITTED TO FOLLOW THE SIGNED DETOUR FOR I-285 LANE CLOSURES.** GDOT and their contractors have tentatively scheduled complete lane closures for all northbound and southbound lanes on I-285 through the end of 2026. Please consider the following weekends when planning moves, as the roadway will be closed to all traffic, including permitted loads. Scheduled Closure Dates: - 11/06/2026 through 11/09/2026 - 11/13/2026 through 11/16/2026 - 11/20/2026 through 11/23/2026 - 12/04/2026 through 12/07/2026 - 12/11/2026 through 12/14/2026 - 12/18/2026 through 12/21/2026",
+          "tags": [
+            "day_restriction",
+            "closure",
+            "detour"
+          ]
+        },
+        {
+          "text": "ALERT: I-285 CLOSURE BETWEEN CAMP CREEK PKWY AND GA-166, 11/6/2026 - 11/9/2026 **IF YOU ARE TRAVELING THIS ROUTE ON 11/7 OR 11/8 AND YOUR HEIGHT IS GREATER THAN 15-6\" YOU MUST RESUBMIT AND ROUTE AROUND THE LANE CLOSURES ON I-285 BETWEEN MILEMARKER 7 AND 9.** IF YOUR HEIGHT IS LESS THAN OR EQUAL TO 15-6\" YOU ARE PERMITTED TO FOLLOW THE SIGNED DETOUR FOR I-285 LANE CLOSURES ON 11/7 OR 11/8.** In observance of Veterans Day. The GDPS Permit Unit will be closed Wednesday, November 11, 2026. The GAPROS Office will be open to assist Single Trip Users. Travel is allowed. Please Order your Permits and Plan your Travel Accordingly. Keep in mind that most permit types will self-issue for those customers wishing to order permits online.",
+          "tags": [
+            "closure",
+            "detour"
+          ]
+        },
+        {
+          "text": "A vehicle Rear Escort and/or Amber Light is required for the entire route.",
+          "tags": [
+            "escort"
+          ]
+        },
+        {
+          "text": "Travel allowed on all authorized highways and roads during daylight hours 30 minutes after sunrise and 30 minutes before sunset only. ALERT: I-285 CONSTRUCTION: CHECK TRAFFIC 511 FOR I-285 LANE CLOSURES AND ADJUST TRAVEL DAY AND TIMES.",
+          "tags": [
+            "daylight_only",
+            "closure"
+          ]
+        },
+        {
+          "text": "No permitted load is authorized to travel during inclement weather and holidays as defined in Department Rule 672-2-.03. (c)",
+          "tags": [
+            "day_restriction",
+            "weather"
+          ]
+        }
+      ],
+      "extraction": {
+        "layout": "table_miles_route_to_distance",
+        "checks": {
+          "sum_of_miles": 217.6,
+          "final_cumulative": 217.6,
+          "ok": true
+        },
+        "has_distances": true,
+        "has_coordinates": false
+      }
+    },
+    {
+      "permit": {
+        "state": "AL",
+        "number": "2874204",
+        "valid_from": "11/09/2026",
+        "valid_to": "11/13/2026",
+        "usdot": "3435067",
+        "dimensions_raw": {
+          "width": "13' 0\"",
+          "height": "15' 4\"",
+          "length": "93' 0\"",
+          "gross_weight_lbs": 99500
+        }
+      },
+      "route": {
+        "origin_raw": "GA STATE LINE",
+        "destination_raw": "MS STATE LINE",
+        "origin_latlon": null,
+        "destination_latlon": null,
+        "step_count": 10,
+        "steps": [
+          {
+            "seq": 1,
+            "road": "I-20",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": null,
+            "cumulative_miles": null,
+            "instruction": "I-20",
+            "route_label_raw": "I-20",
+            "flags": []
+          },
+          {
+            "seq": 2,
+            "road": "I-459",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": null,
+            "cumulative_miles": null,
+            "instruction": "I-459",
+            "route_label_raw": "I-459",
+            "flags": []
+          },
+          {
+            "seq": 3,
+            "road": "I-20",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": null,
+            "cumulative_miles": null,
+            "instruction": "I-20",
+            "route_label_raw": "I-20",
+            "flags": []
+          },
+          {
+            "seq": 4,
+            "road": "I-20",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": null,
+            "cumulative_miles": null,
+            "instruction": "I-20",
+            "route_label_raw": "I-20",
+            "flags": [
+              "detour_marker",
+              "detour"
+            ]
+          },
+          {
+            "seq": 5,
+            "road": null,
+            "direction": null,
+            "action": "ramp_exit",
+            "exit": "32",
+            "miles": null,
+            "cumulative_miles": null,
+            "instruction": "EXIT 32",
+            "route_label_raw": "EXIT 32",
+            "flags": [
+              "ramp",
+              "detour"
+            ]
+          },
+          {
+            "seq": 6,
+            "road": "CR-20",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": null,
+            "cumulative_miles": null,
+            "instruction": "CO RD 20",
+            "route_label_raw": "CO RD 20",
+            "flags": [
+              "county_road",
+              "detour"
+            ]
+          },
+          {
+            "seq": 7,
+            "road": "US-11",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": null,
+            "cumulative_miles": null,
+            "instruction": "US11",
+            "route_label_raw": "US11",
+            "flags": [
+              "detour"
+            ]
+          },
+          {
+            "seq": 8,
+            "road": "AL-28",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": null,
+            "cumulative_miles": null,
+            "instruction": "AL28",
+            "route_label_raw": "AL28",
+            "flags": [
+              "detour"
+            ]
+          },
+          {
+            "seq": 9,
+            "road": null,
+            "direction": null,
+            "action": "ramp_exit",
+            "exit": "17",
+            "miles": null,
+            "cumulative_miles": null,
+            "instruction": "EXIT 17",
+            "route_label_raw": "EXIT 17",
+            "flags": [
+              "ramp",
+              "detour"
+            ]
+          },
+          {
+            "seq": 10,
+            "road": "I-20",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": null,
+            "cumulative_miles": null,
+            "instruction": "I-20",
+            "route_label_raw": "I-20",
+            "flags": []
+          }
+        ],
+        "roads_in_order": [
+          "I-20",
+          "I-459",
+          "I-20",
+          "I-20",
+          "CR-20",
+          "US-11",
+          "AL-28",
+          "I-20"
+        ]
+      },
+      "restrictions": [
+        {
+          "text": "NOT VALID ON LEGAL HOLIDAYS. MUST BE A DAYLIGHT MOVE",
+          "tags": [
+            "daylight_only",
+            "day_restriction"
+          ]
+        },
+        {
+          "text": "REAR ESCORT REQUIRED",
+          "tags": [
+            "escort"
+          ]
+        },
+        {
+          "text": "FRONT ESCORT REQUIRED ON TWO LANE HIGHWAY.",
+          "tags": [
+            "escort"
+          ]
+        }
+      ],
+      "extraction": {
+        "layout": "road_list_no_distances",
+        "checks": null,
+        "has_distances": false,
+        "has_coordinates": false
+      }
+    },
+    {
+      "permit": {
+        "state": "MS",
+        "number": "26177751",
+        "valid_from": "11/09/2026",
+        "valid_to": "11/12/2026",
+        "usdot": "3435067",
+        "dimensions_raw": {
+          "width": "13' 6\"",
+          "height": "15' 4\"",
+          "length": "93' 0\"",
+          "gross_weight_lbs": 99500
+        }
+      },
+      "route": {
+        "origin_raw": "I-20/I-59 AL Line",
+        "destination_raw": "I-20/US-80 LA Line",
+        "origin_latlon": null,
+        "destination_latlon": null,
+        "step_count": 11,
+        "steps": [
+          {
+            "seq": 1,
+            "road": "I-20",
+            "direction": null,
+            "action": "ramp_exit",
+            "exit": "149",
+            "miles": 23.3,
+            "cumulative_miles": 23.3,
+            "instruction": "Take Exit 149 toward I-20 WEST/JACKSON",
+            "route_label_raw": "I-20",
+            "flags": []
+          },
+          {
+            "seq": 2,
+            "road": "I-20",
+            "direction": null,
+            "action": "ramp_exit",
+            "exit": "41",
+            "miles": 89.2,
+            "cumulative_miles": 112.5,
+            "instruction": "Take Exit 41 toward I-220/US-49 NORTH/NORTH JACKSON/YAZOO CITY",
+            "route_label_raw": "I-20",
+            "flags": []
+          },
+          {
+            "seq": 3,
+            "road": "I-220",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": 0.4,
+            "cumulative_miles": 112.9,
+            "instruction": "Continue straight on I-220 [US-49]",
+            "route_label_raw": "I-220 Ramp",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 4,
+            "road": "I-220",
+            "direction": null,
+            "action": "ramp_exit",
+            "exit": "1B",
+            "miles": 0.5,
+            "cumulative_miles": 113.4,
+            "instruction": "Take Exit 1B toward US-80 WEST",
+            "route_label_raw": "I-220",
+            "flags": []
+          },
+          {
+            "seq": 5,
+            "road": "US-80",
+            "direction": null,
+            "action": "merge",
+            "exit": null,
+            "miles": 0.3,
+            "cumulative_miles": 113.6,
+            "instruction": "Merge onto US-80 [MS-18]",
+            "route_label_raw": "US-80 Ramp",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 6,
+            "road": "US-80",
+            "direction": null,
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.1,
+            "cumulative_miles": 113.8,
+            "instruction": "Take I-220 Ramp [RAMP]",
+            "route_label_raw": "US-80",
+            "flags": []
+          },
+          {
+            "seq": 7,
+            "road": "I-220",
+            "direction": null,
+            "action": "other",
+            "exit": null,
+            "miles": 0.1,
+            "cumulative_miles": 113.8,
+            "instruction": "Head toward I-220 SOUTH/US-49",
+            "route_label_raw": "I-220 Ramp",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 8,
+            "road": "I-220",
+            "direction": null,
+            "action": "merge",
+            "exit": null,
+            "miles": 0.2,
+            "cumulative_miles": 114.1,
+            "instruction": "Merge onto I-220 [US-49]",
+            "route_label_raw": "I-220 Ramp",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 9,
+            "road": "I-220",
+            "direction": null,
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.2,
+            "cumulative_miles": 114.3,
+            "instruction": "Take I-20 Ramp",
+            "route_label_raw": "I-220",
+            "flags": []
+          },
+          {
+            "seq": 10,
+            "road": "I-20",
+            "direction": null,
+            "action": "continue",
+            "exit": null,
+            "miles": 0.5,
+            "cumulative_miles": 114.8,
+            "instruction": "Continue straight on I-20",
+            "route_label_raw": "I-20 Ramp",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 11,
+            "road": "I-20",
+            "direction": null,
+            "action": "arrive",
+            "exit": null,
+            "miles": 40.9,
+            "cumulative_miles": 155.7,
+            "instruction": "Arrive at destination.",
+            "route_label_raw": "I-20",
+            "flags": []
+          }
+        ],
+        "roads_in_order": [
+          "I-20",
+          "I-20",
+          "I-220",
+          "US-80",
+          "I-220",
+          "I-20"
+        ]
+      },
+      "restrictions": [
+        {
+          "text": "City of Jackson Transporters of loads in excess of twelve (12) feet shall time movements to avoid the major urban areas of Jackson from 7:00 a.m. to 8:30 a.m. and 4:30 p.m. to 5:30 p.m. weekdays.",
+          "tags": [
+            "time_window"
+          ]
+        },
+        {
+          "text": "Daylight movement only (from sunrise until sunset).",
+          "tags": [
+            "daylight_only"
+          ]
+        },
+        {
+          "text": "Any load obstructing the flow of traffic must pull off the road periodically to allow traffic to clear.",
+          "tags": [
+            "other"
+          ]
+        },
+        {
+          "text": "Over-dimensional loads are restricted from traveling during inclement weather.",
+          "tags": [
+            "weather"
+          ]
+        },
+        {
+          "text": "No movement allowed on Sundays.",
+          "tags": [
+            "day_restriction"
+          ]
+        },
+        {
+          "text": "Front Escort 2 Lane -- Rear Escort 4 Lane required",
+          "tags": [
+            "escort"
+          ]
+        },
+        {
+          "text": "Red flags required on all corners of the load.",
+          "tags": [
+            "other"
+          ]
+        }
+      ],
+      "extraction": {
+        "layout": "table_miles_route_to_distance",
+        "checks": {
+          "sum_of_miles": 155.7,
+          "final_cumulative": 155.7,
+          "ok": true
+        },
+        "has_distances": true,
+        "has_coordinates": false
+      }
+    },
+    {
+      "permit": {
+        "state": "LA",
+        "number": "20263110109-0",
+        "valid_from": "11/09/2026",
+        "valid_to": "11/13/2026",
+        "usdot": "3435067",
+        "dimensions_raw": {
+          "width": "13-0",
+          "height": "15-4",
+          "length": "93-0",
+          "gross_weight_lbs": 99500
+        }
+      },
+      "route": {
+        "origin_raw": "I-20 W @ MS State Line [32.314143,-90.906285]",
+        "destination_raw": "I-20 W @ TX State Line [32.461309,-94.042870]",
+        "origin_latlon": [
+          32.314143,
+          -90.906285
+        ],
+        "destination_latlon": [
+          32.461309,
+          -94.04287
+        ],
+        "step_count": 5,
+        "steps": [
+          {
+            "seq": 1,
+            "road": "I-20",
+            "direction": "W",
+            "action": "continue",
+            "exit": null,
+            "miles": 162.6,
+            "cumulative_miles": 162.6,
+            "instruction": "I-20 W",
+            "route_label_raw": "I-20 W",
+            "flags": []
+          },
+          {
+            "seq": 2,
+            "road": null,
+            "direction": null,
+            "action": "ramp_exit",
+            "exit": "26",
+            "miles": 0.6,
+            "cumulative_miles": 163.2,
+            "instruction": "EXIT 26",
+            "route_label_raw": "EXIT 26",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 3,
+            "road": "I-220",
+            "direction": "W",
+            "action": "continue",
+            "exit": null,
+            "miles": 16.8,
+            "cumulative_miles": 180.0,
+            "instruction": "I-220 W",
+            "route_label_raw": "I-220 W",
+            "flags": []
+          },
+          {
+            "seq": 4,
+            "road": null,
+            "direction": null,
+            "action": "ramp_exit",
+            "exit": "1B",
+            "miles": 0.9,
+            "cumulative_miles": 180.9,
+            "instruction": "EXIT 1B",
+            "route_label_raw": "EXIT 1B",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 5,
+            "road": "I-20",
+            "direction": "W",
+            "action": "continue",
+            "exit": null,
+            "miles": 11.4,
+            "cumulative_miles": 192.3,
+            "instruction": "I-20 W",
+            "route_label_raw": "I-20 W",
+            "flags": []
+          }
+        ],
+        "roads_in_order": [
+          "I-20",
+          "I-220",
+          "I-20"
+        ]
+      },
+      "restrictions": [
+        {
+          "text": "W HC 12-0 Oversize loads over 12' wide may not travel on the Interstate system in Monroe from 7:00 AM to 9:00 AM and 3:30 PM to 5:30 PM, Monday through Friday. I20 from eastern city limits to western city limits of West Monroe",
+          "tags": [
+            "time_window"
+          ]
+        },
+        {
+          "text": "W BL N/A ALL LOADS MUST DETOUR TO I-220",
+          "tags": [
+            "detour"
+          ]
+        },
+        {
+          "text": "Hours of operation are from sunrise to sunset.",
+          "tags": [
+            "daylight_only"
+          ]
+        },
+        {
+          "text": "Louisiana permitted Civilian Escort required",
+          "tags": [
+            "escort"
+          ]
+        },
+        {
+          "text": "All permit loads are not to exceed 55 MPH.",
+          "tags": [
+            "other"
+          ]
+        }
+      ],
+      "extraction": {
+        "layout": "driving_instructions_miles_first",
+        "checks": {
+          "sum_of_miles": 192.3,
+          "declared_total": 192.4,
+          "ok": true
+        },
+        "has_distances": true,
+        "has_coordinates": true
+      }
+    },
+    {
+      "permit": {
+        "state": "TX",
+        "number": "261107458551",
+        "valid_from": "11/10/2026",
+        "valid_to": "11/14/2026",
+        "usdot": "3435067",
+        "dimensions_raw": {
+          "width": "13'",
+          "height": "15' 4",
+          "length": "93'",
+          "gross_weight_lbs": 99500
+        }
+      },
+      "route": {
+        "origin_raw": "IH0020 LA Line",
+        "destination_raw": "SH0178 NM Line",
+        "origin_latlon": null,
+        "destination_latlon": null,
+        "step_count": 44,
+        "steps": [
+          {
+            "seq": 1,
+            "road": "I-20",
+            "direction": "w",
+            "action": "ramp_exit",
+            "exit": "614",
+            "miles": 21.4,
+            "cumulative_miles": 21.4,
+            "instruction": "Take Exit 614 toward TX-43/MARSHALL/HENDERSON",
+            "route_label_raw": "IH20 w",
+            "flags": []
+          },
+          {
+            "seq": 2,
+            "road": "I-20",
+            "direction": "w",
+            "action": "turn",
+            "exit": null,
+            "miles": 0.3,
+            "cumulative_miles": 21.7,
+            "instruction": "Turn left onto SH43 s",
+            "route_label_raw": "IH20 Ramp w",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 3,
+            "road": "TX-43",
+            "direction": "sw",
+            "action": "turn",
+            "exit": null,
+            "miles": 33.2,
+            "cumulative_miles": 54.9,
+            "instruction": "Bear left onto US79 sw [US259]",
+            "route_label_raw": "SH43 sw",
+            "flags": []
+          },
+          {
+            "seq": 4,
+            "road": "US-79",
+            "direction": "sw",
+            "action": "turn",
+            "exit": null,
+            "miles": 58.3,
+            "cumulative_miles": 113.2,
+            "instruction": "Turn right onto SL256 sw [LOOP 256]",
+            "route_label_raw": "US79 sw",
+            "flags": []
+          },
+          {
+            "seq": 5,
+            "road": "TX-LOOP-256",
+            "direction": "sw",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 4.4,
+            "cumulative_miles": 117.6,
+            "instruction": "Take US79 Ramp se",
+            "route_label_raw": "SL256 sw",
+            "flags": []
+          },
+          {
+            "seq": 6,
+            "road": "US-79",
+            "direction": "se",
+            "action": "turn",
+            "exit": null,
+            "miles": 0.1,
+            "cumulative_miles": 117.8,
+            "instruction": "Bear right onto US79 sw [US84], [WEST OAK STREET]",
+            "route_label_raw": "US79 Ramp se",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 7,
+            "road": "US-79",
+            "direction": "sw",
+            "action": "continue",
+            "exit": null,
+            "miles": 10.7,
+            "cumulative_miles": 128.4,
+            "instruction": "Continue straight on US84 w [US79]",
+            "route_label_raw": "US79 sw",
+            "flags": []
+          },
+          {
+            "seq": 8,
+            "road": "US-84",
+            "direction": "w",
+            "action": "merge",
+            "exit": null,
+            "miles": 0.5,
+            "cumulative_miles": 128.9,
+            "instruction": "Merge onto US79 sw",
+            "route_label_raw": "US84 w",
+            "flags": []
+          },
+          {
+            "seq": 9,
+            "road": "US-79",
+            "direction": "sw",
+            "action": "turn",
+            "exit": null,
+            "miles": 22.0,
+            "cumulative_miles": 150.9,
+            "instruction": "Turn right onto IH45WFR nw [CRAIGWFR]",
+            "route_label_raw": "US79 sw",
+            "flags": []
+          },
+          {
+            "seq": 10,
+            "road": "I-45",
+            "direction": "nw",
+            "action": "turn",
+            "exit": null,
+            "miles": 1.5,
+            "cumulative_miles": 152.5,
+            "instruction": "Turn left onto SH164 w",
+            "route_label_raw": "IH45WFR nw",
+            "flags": [
+              "frontage"
+            ]
+          },
+          {
+            "seq": 11,
+            "road": "TX-164",
+            "direction": "w",
+            "action": "continue",
+            "exit": null,
+            "miles": 52.7,
+            "cumulative_miles": 205.1,
+            "instruction": "Continue straight on SH6 w",
+            "route_label_raw": "SH164 w",
+            "flags": []
+          },
+          {
+            "seq": 12,
+            "road": "TX-6",
+            "direction": "w",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 6.5,
+            "cumulative_miles": 211.6,
+            "instruction": "Take exit toward SH6/LP340",
+            "route_label_raw": "SH6 w",
+            "flags": []
+          },
+          {
+            "seq": 13,
+            "road": "TX-6",
+            "direction": "nw",
+            "action": "continue",
+            "exit": null,
+            "miles": 0.2,
+            "cumulative_miles": 211.8,
+            "instruction": "Continue straight on SH6EFR nw",
+            "route_label_raw": "SH6 Ramp nw",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 14,
+            "road": "TX-6",
+            "direction": "nw",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.1,
+            "cumulative_miles": 211.9,
+            "instruction": "Take SL340 Ramp sw",
+            "route_label_raw": "SH6EFR nw",
+            "flags": [
+              "frontage"
+            ]
+          },
+          {
+            "seq": 15,
+            "road": "TX-LOOP-340",
+            "direction": "sw",
+            "action": "merge",
+            "exit": null,
+            "miles": 0.05,
+            "cumulative_miles": 211.9,
+            "instruction": "Merge onto SL340 sw [LOOP 340]",
+            "route_label_raw": "SL340 Ramp sw",
+            "flags": [
+              "miles_lt_0.1",
+              "ramp"
+            ]
+          },
+          {
+            "seq": 16,
+            "road": "TX-LOOP-340",
+            "direction": "sw",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 4.9,
+            "cumulative_miles": 216.8,
+            "instruction": "Take exit toward South US77",
+            "route_label_raw": "SL340 sw",
+            "flags": []
+          },
+          {
+            "seq": 17,
+            "road": "US-77",
+            "direction": "ne",
+            "action": "turn",
+            "exit": null,
+            "miles": 0.2,
+            "cumulative_miles": 217.0,
+            "instruction": "Bear right onto US77 s [ROBINSON DRIVE]",
+            "route_label_raw": "US77 Ramp ne",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 18,
+            "road": "US-77",
+            "direction": "s",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 14.6,
+            "cumulative_miles": 231.6,
+            "instruction": "Take US77 Ramp s",
+            "route_label_raw": "US77 s",
+            "flags": []
+          },
+          {
+            "seq": 19,
+            "road": "US-77",
+            "direction": "s",
+            "action": "turn",
+            "exit": null,
+            "miles": 0.2,
+            "cumulative_miles": 231.7,
+            "instruction": "Turn right onto SH7 w",
+            "route_label_raw": "US77 Ramp s",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 20,
+            "road": "TX-7",
+            "direction": "w",
+            "action": "merge",
+            "exit": null,
+            "miles": 10.6,
+            "cumulative_miles": 242.3,
+            "instruction": "Merge onto FM107 w [3RD STREET]",
+            "route_label_raw": "SH7 w",
+            "flags": []
+          },
+          {
+            "seq": 21,
+            "road": "TX-FM-107",
+            "direction": "w",
+            "action": "turn",
+            "exit": null,
+            "miles": 6.6,
+            "cumulative_miles": 248.9,
+            "instruction": "Turn right onto SH317 n [AVENUE D]",
+            "route_label_raw": "FM107 w",
+            "flags": []
+          },
+          {
+            "seq": 22,
+            "road": "TX-317",
+            "direction": "n",
+            "action": "turn",
+            "exit": null,
+            "miles": 10.2,
+            "cumulative_miles": 259.1,
+            "instruction": "Turn left onto US84 w [WEST MCGREGOR DRIVE]",
+            "route_label_raw": "SH317 n",
+            "flags": []
+          },
+          {
+            "seq": 23,
+            "road": "US-84",
+            "direction": "w",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 44.4,
+            "cumulative_miles": 303.5,
+            "instruction": "Take US281 Ramp nw",
+            "route_label_raw": "US84 w",
+            "flags": []
+          },
+          {
+            "seq": 24,
+            "road": "US-281",
+            "direction": "nw",
+            "action": "turn",
+            "exit": null,
+            "miles": 0.2,
+            "cumulative_miles": 303.6,
+            "instruction": "Bear left onto US281 s",
+            "route_label_raw": "US281 Ramp nw",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 25,
+            "road": "US-281",
+            "direction": "s",
+            "action": "continue",
+            "exit": null,
+            "miles": 28.3,
+            "cumulative_miles": 332.0,
+            "instruction": "Continue straight on US183 s [AMERICAN LEGION MEMORIAL HIGHW]",
+            "route_label_raw": "US281 s",
+            "flags": []
+          },
+          {
+            "seq": 26,
+            "road": "US-183",
+            "direction": "s",
+            "action": "turn",
+            "exit": null,
+            "miles": 1.9,
+            "cumulative_miles": 333.9,
+            "instruction": "Turn right onto US281 s [E E OHNMEISS DRIVE], [TRUCK]",
+            "route_label_raw": "US183 s",
+            "flags": []
+          },
+          {
+            "seq": 27,
+            "road": "US-281",
+            "direction": "s",
+            "action": "turn",
+            "exit": null,
+            "miles": 21.5,
+            "cumulative_miles": 355.5,
+            "instruction": "Turn right onto SH29 w [WEST POLK STREET]",
+            "route_label_raw": "US281 s",
+            "flags": []
+          },
+          {
+            "seq": 28,
+            "road": "TX-29",
+            "direction": "w",
+            "action": "merge",
+            "exit": null,
+            "miles": 63.2,
+            "cumulative_miles": 418.6,
+            "instruction": "Merge onto US87 nw [SH29]",
+            "route_label_raw": "SH29 w",
+            "flags": []
+          },
+          {
+            "seq": 29,
+            "road": "US-87",
+            "direction": "nw",
+            "action": "turn",
+            "exit": null,
+            "miles": 1.4,
+            "cumulative_miles": 420.1,
+            "instruction": "Turn left onto US377 w [SH29]",
+            "route_label_raw": "US87 nw",
+            "flags": []
+          },
+          {
+            "seq": 30,
+            "road": "US-377",
+            "direction": "sw",
+            "action": "turn",
+            "exit": null,
+            "miles": 40.4,
+            "cumulative_miles": 460.5,
+            "instruction": "Turn left onto US83 sw [US377]",
+            "route_label_raw": "US377 sw",
+            "flags": []
+          },
+          {
+            "seq": 31,
+            "road": "US-83",
+            "direction": "sw",
+            "action": "turn",
+            "exit": null,
+            "miles": 0.9,
+            "cumulative_miles": 461.4,
+            "instruction": "Turn right onto IH10NFR nw [IHHIGHWAY-10-FRONTAGE-ROADNFR]",
+            "route_label_raw": "US83 sw",
+            "flags": []
+          },
+          {
+            "seq": 32,
+            "road": "I-10",
+            "direction": "nw",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.05,
+            "cumulative_miles": 461.4,
+            "instruction": "Take IH10 Ramp nw",
+            "route_label_raw": "IH10NFR nw",
+            "flags": [
+              "frontage",
+              "miles_lt_0.1"
+            ]
+          },
+          {
+            "seq": 33,
+            "road": "I-10",
+            "direction": "nw",
+            "action": "continue",
+            "exit": null,
+            "miles": 0.2,
+            "cumulative_miles": 461.7,
+            "instruction": "Continue straight on IH10 w",
+            "route_label_raw": "IH10 Ramp nw",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 34,
+            "road": "I-10",
+            "direction": "w",
+            "action": "detour",
+            "exit": "181",
+            "miles": 278.6,
+            "cumulative_miles": 735.5,
+            "instruction": "DETOUR: Exit 181 toward CHERRY CREEK RD; Take Next Entrance after NELSON LETSCO RANCH ROAD",
+            "route_label_raw": "IH10 w",
+            "flags": [
+              "detour"
+            ]
+          },
+          {
+            "seq": 35,
+            "road": "I-10",
+            "direction": "w",
+            "action": "continue",
+            "exit": null,
+            "miles": 0.5,
+            "cumulative_miles": 740.8,
+            "instruction": "Continue straight on IH10 w",
+            "route_label_raw": "IH10 Ramp w",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 36,
+            "road": "I-10",
+            "direction": "nw",
+            "action": "ramp_exit",
+            "exit": "34",
+            "miles": 141.1,
+            "cumulative_miles": 881.9,
+            "instruction": "Take Exit 34 toward LP375",
+            "route_label_raw": "IH10 nw",
+            "flags": []
+          },
+          {
+            "seq": 37,
+            "road": "TX-LOOP-375",
+            "direction": "nw",
+            "action": "turn",
+            "exit": null,
+            "miles": 0.5,
+            "cumulative_miles": 882.4,
+            "instruction": "Keep right toward LP375 North",
+            "route_label_raw": "SL375 Connector nw",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 38,
+            "road": "TX-LOOP-375",
+            "direction": "ne",
+            "action": "continue",
+            "exit": null,
+            "miles": 1.0,
+            "cumulative_miles": 883.4,
+            "instruction": "Continue straight on SL375 n [LOOP 375]",
+            "route_label_raw": "SL375 Connector ne",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 39,
+            "road": "TX-LOOP-375",
+            "direction": "nw",
+            "action": "continue",
+            "exit": null,
+            "miles": 31.3,
+            "cumulative_miles": 914.7,
+            "instruction": "Continue straight on SS16 sw [SL375], [SPUR 16]",
+            "route_label_raw": "SL375 nw",
+            "flags": []
+          },
+          {
+            "seq": 40,
+            "road": "TX-SS-16",
+            "direction": "sw",
+            "action": "turn",
+            "exit": null,
+            "miles": 1.2,
+            "cumulative_miles": 916.0,
+            "instruction": "Bear left onto SH20 s [DONIPHAN DRIVE]",
+            "route_label_raw": "SS16 sw",
+            "flags": []
+          },
+          {
+            "seq": 41,
+            "road": "TX-20",
+            "direction": "s",
+            "action": "turn",
+            "exit": null,
+            "miles": 0.9,
+            "cumulative_miles": 916.9,
+            "instruction": "Turn right onto SH178NFR w",
+            "route_label_raw": "SH20 s",
+            "flags": []
+          },
+          {
+            "seq": 42,
+            "road": "TX-178",
+            "direction": "w",
+            "action": "ramp_exit",
+            "exit": null,
+            "miles": 0.1,
+            "cumulative_miles": 917.0,
+            "instruction": "Take SH178 Ramp w",
+            "route_label_raw": "SH178NFR w",
+            "flags": [
+              "frontage"
+            ]
+          },
+          {
+            "seq": 43,
+            "road": "TX-178",
+            "direction": "w",
+            "action": "continue",
+            "exit": null,
+            "miles": 0.4,
+            "cumulative_miles": 917.4,
+            "instruction": "Continue straight on SH178 w [ARTCRAFT ROAD]",
+            "route_label_raw": "SH178 Ramp w",
+            "flags": [
+              "ramp"
+            ]
+          },
+          {
+            "seq": 44,
+            "road": "TX-178",
+            "direction": null,
+            "action": "arrive",
+            "exit": null,
+            "miles": 1.7,
+            "cumulative_miles": 919.1,
+            "instruction": "Arrive at destination. [Loaded Route Destination: SH0178 NM Line ] *Permit loads that are overweight only are exempt from curfew. visit our website at www.txdmv.gov. For questions or complaints concerning call 1-800-299-1700 or write to: TxDMV-MCD, 4000 Jackson Avenue, Austin,TX.",
+            "route_label_raw": "SH178 w For more information, process for permits,",
+            "flags": []
+          }
+        ],
+        "roads_in_order": [
+          "I-20",
+          "TX-43",
+          "US-79",
+          "TX-LOOP-256",
+          "US-79",
+          "US-84",
+          "US-79",
+          "I-45",
+          "TX-164",
+          "TX-6",
+          "TX-6",
+          "TX-LOOP-340",
+          "US-77",
+          "TX-7",
+          "TX-FM-107",
+          "TX-317",
+          "US-84",
+          "US-281",
+          "US-183",
+          "US-281",
+          "TX-29",
+          "US-87",
+          "US-377",
+          "US-83",
+          "I-10",
+          "I-10",
+          "I-10",
+          "TX-LOOP-375",
+          "TX-SS-16",
+          "TX-20",
+          "TX-178",
+          "TX-178"
+        ]
+      },
+      "restrictions": [
+        {
+          "text": "City of Buffalo Curfew: No permits on the following highways within Buffalo City limits during the hours of 07:00 - 09:00 AM and 11:00 AM - 01:30 PM Monday through Friday: US79, SH75, SH164, FM745, and FM1848.",
+          "tags": [
+            "time_window"
+          ]
+        },
+        {
+          "text": "FM107 in McLennan Co: All vehicles with less than 18\" under clearance: The mover must contact the McLennan County Maintenance Office, (254) 772-1200, prior to traveling over the railroad crossing located east of SH317.",
+          "tags": [
+            "other"
+          ]
+        },
+        {
+          "text": "City of El Paso Curfew: 12' max width and/or 95' max length inside or on LP375; 7-9 am and 4-6 pm; Monday through Friday.",
+          "tags": [
+            "time_window"
+          ]
+        }
+      ],
+      "extraction": {
+        "layout": "table_miles_route_to_distance",
+        "checks": {
+          "sum_of_miles": 919.0,
+          "final_cumulative": 919.1,
+          "ok": true
+        },
+        "has_distances": true,
+        "has_coordinates": false
+      }
+    },
+    {
+      "permit": {
+        "state": "NM",
+        "number": "NM26335322",
+        "valid_from": "11/11/2026",
+        "valid_to": "11/15/2026",
+        "usdot": "3435067",
+        "dimensions_raw": {
+          "width": "13'",
+          "height": "15' 4\"",
+          "length": "93'",
+          "gross_weight_lbs": 99500
+        }
+      },
+      "route": {
+        "origin_raw": "NM-136;TX;Santa Teresa",
+        "destination_raw": "NM-136 0.1mi SANTA TERESA",
+        "origin_latlon": null,
+        "destination_latlon": null,
+        "step_count": 1,
+        "steps": [
+          {
+            "seq": 1,
+            "road": "NM-136",
+            "direction": null,
+            "action": "arrive",
+            "exit": null,
+            "miles": 5.95,
+            "cumulative_miles": 5.95,
+            "instruction": "Arrive at destination. Destination: NM-136 0.1mi SANTA TERESA Ton Mile Mileage Special Fuel Temporary Fuel Permit: Oversize/Overweight: Caravan/Caravan-in-tow: Total Fees: Payment Method:",
+            "route_label_raw": "NM-136",
+            "flags": []
+          }
+        ],
+        "roads_in_order": [
+          "NM-136"
+        ]
+      },
+      "restrictions": [
+        {
+          "text": "Daylight movement only, 7-day permit; no travel on national holidays or in inclement weather (wind >= 25 mph, visibility < 1000 ft).",
+          "tags": [
+            "daylight_only",
+            "day_restriction",
+            "weather"
+          ]
+        },
+        {
+          "text": "Maximum speed 65 mph.",
+          "tags": [
+            "other"
+          ]
+        }
+      ],
+      "extraction": {
+        "layout": "table_miles_route_to_distance",
+        "checks": {
+          "sum_of_miles": 5.95,
+          "final_cumulative": 5.95,
+          "ok": true
+        },
+        "has_distances": true,
+        "has_coordinates": false
+      }
+    }
+  ]
+}

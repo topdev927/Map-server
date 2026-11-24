@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-multipart
+pdfplumber
+pydantic
+# optional, only if you ever use the paid Anthropic reader (EXTRACTOR=claude):
+# anthropic

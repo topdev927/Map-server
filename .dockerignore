@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+.overpass_cache/
+*.pdf
+test_*.py
+golden_trip.json
